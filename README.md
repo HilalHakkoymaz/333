@@ -17,3 +17,6 @@ df <- stroop_standing_data
 ``` {R Stroop}
 count(df, phase)
 ```
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
