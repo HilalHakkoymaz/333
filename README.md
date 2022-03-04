@@ -5,11 +5,9 @@ test
 ### Fit an appropriate model to Stroop standing data
 
 Let`s see the data!
-``` {r Stroop, warning = FALSE, message = FALSE, fig.height = 2, fig.width = 2}
+
+```{r Stroop, warning = FALSE, message = FALSE, fig.height = 2, fig.width = 2}
 library(tidyverse)
-library(ggplot2)
-library(readr)
-library(dplyr)
 stroop_standing_data <- read_csv("R_homework/Homework_3/stroop_standing_data.csv")
 view(stroop_standing_data)
 str(stroop_standing_data)
