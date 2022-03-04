@@ -13,3 +13,7 @@ view(stroop_standing_data)
 str(stroop_standing_data)
 df <- stroop_standing_data
 ```
+
+``` {R Stroop}
+count(df, phase)
+```
