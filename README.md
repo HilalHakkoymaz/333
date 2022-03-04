@@ -7,6 +7,9 @@ test
 Let`s see the data!
 ``` {r Stroop}
 stroop_standing_data <- read_csv("R_homework/Homework_3/stroop_standing_data.csv")
+```
+```
 View(stroop_standing_data)
+```
 str(stroop_standing_data)
 ```
