@@ -1,5 +1,3 @@
-# 333
-test
 ---
 title: "Homework_3"
 author: "Hilal Hakkoymaz"
