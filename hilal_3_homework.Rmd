@@ -73,7 +73,7 @@ sdf <- sdf %>%
 sdf$congruency <- factor(sdf$congruency)  #factor
 sdf$phase <- factor(sdf$phase)
 ```
-4. Summarise the data to look at how accuracy varies across conditions and subject!
+4. Summarise the data to look at how Reaction Time varies across conditions, phases and congruency!
 ```{r}
 sgrouping2 <- group_by(sdf, subject, condition , phase, congruency)
 sdf_summary2 <- summarise(sgrouping2, mean_rt = mean(rt))
